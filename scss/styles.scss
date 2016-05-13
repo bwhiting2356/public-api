@@ -48,7 +48,6 @@ header {
 #modal-content {
     width: 80%;
     max-width: 400px;
-    height: 430px;
     margin: 100px auto;
     background: white;
     display: flex;
@@ -61,8 +60,11 @@ header {
 }
 
 #heading {
-    margin-top: 20px;
     padding-top: 20px;
+}
+
+#description {
+    padding-bottom: 20px;
 }
 
 #modal-image {

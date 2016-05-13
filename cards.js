@@ -58,8 +58,6 @@ modal_wrapper.addEventListener('click', function(e) {
     modal_wrapper.style.display = "none";
 });
 var modal_image = document.getElementById('modal-image');
-var modal_suit = document.getElementById('modal-suit');
-var modal_value = document.getElementById('modal-value');
 var modal_description = document.getElementById('modal-description');
 
 
@@ -70,7 +68,7 @@ function launchNewModal(e) {
     var value = card.value.capitalizeFirstLetter();
     var description = value + " of " + suit;
     modal_image.setAttribute("src", card.image);
-    modal_image.setAttribute("alt", description)
+    modal_image.setAttribute("alt", description);
     modal_description.innerHTML = description;
     modal_wrapper.style.display = "block";
 }

@@ -1,0 +1,64 @@
+#cards_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  text-align: center; }
+  @media screen and (min-width: 620px) {
+    #cards_wrapper {
+      margin: 25px; } }
+
+.card {
+  width: 227px;
+  max-width: 80%;
+  display: block;
+  margin: 2% auto;
+  cursor: pointer;
+  transition: opacity .3s ease; }
+  @media screen and (min-width: 620px) {
+    .card {
+      display: inline-block;
+      margin: 25px; } }
+  .card:hover {
+    opacity: .75; }
+
+* {
+  font-family: Iconsolata, monospace; }
+
+header {
+  text-align: center;
+  margin: 0 50px; }
+
+#modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: none; }
+
+#modal-content {
+  width: 80%;
+  max-width: 400px;
+  margin: 100px auto;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  #modal-content h2, #modal-content p {
+    text-align: center; }
+
+#heading {
+  padding-top: 20px; }
+
+#description {
+  padding-bottom: 20px; }
+
+#modal-image {
+  width: 227px;
+  max-width: 80%;
+  margin: 0px auto; }
+
+/*# sourceMappingURL=styles.css.map */
